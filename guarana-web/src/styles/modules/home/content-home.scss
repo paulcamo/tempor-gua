@@ -1,0 +1,90 @@
+// --------------------------------------------- //
+// ----------------- CONTENT HOME ------------- //
+// --------------------------------------------- //
+$max-width:  600px;
+
+// ----------------- CONTENT HOME GENERAL ------------- //
+.main__home{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+    
+.content__home__section{
+    width: 83%;
+    overflow: hidden;
+    background-color: aqua;
+    float: left;
+    margin-left: 17%;
+}
+    
+    
+// ----------------- CONTENT HOME MAIN BANNER ------------- //
+.content__main__home__image{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+    
+.main__image__home__big{
+    width: 100%;
+}
+    
+.cta__home__big{
+    color: $white;
+    padding: 13px 32px;
+    background: linear-gradient(to bottom, rgba(216,62,72,1) 0%, rgba(246,41,12,1) 49%, rgba(186,35,43,1) 54%, rgba(186,35,43,1) 100%);
+    font-weight: bold;
+}
+    
+// ----------------- CONTENT HOME LITTLE BANNERS ------------- //
+.content__main__home__ctas{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+    
+.cta__small__images{
+    width: 33.33333%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    background: rgb(255, 169, 19);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+    
+//    &:hover
+//        .content__small__cta
+//            top 0
+    
+.main__banner__cta{
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    right: 40%;
+}
+    
+    
+.small__image__cta{
+    width: 100%;
+    height: 100%;
+}
+    
+.content__small__cta{
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    display: block;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(251, 230, 2, 0.8);
+}
+    
+.cta__small__unica{
+    background-image: url("../img/homepage/bg-first-image-home.png");
+}
+    
+    
+    

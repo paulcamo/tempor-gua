@@ -1,0 +1,6 @@
+name = Guarana
+description = Guarana Dummy Theme.
+package = Core
+version = VERSION
+core = 7.x
+project = "Prodigious"

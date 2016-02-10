@@ -1,0 +1,44 @@
+/////* MIXINS HERE */
+//@mixin new_breakpoint($min, $max, $orient) {
+//    
+//
+//
+//    @if ($min && $max) {
+//
+//         if ($orient) {
+//                @media all and (min-width: $min) and (max-width: $max) and (orientation: $orient)
+//                    @content;
+//            } @else { 
+//                @media all and (min-width: $min) and (max-width: $max)
+//                    @content;
+//            }
+//
+//   
+//   } @else {
+//
+//
+//
+//            @if ($min) {
+//                    if ($orient) {
+//                        @media all and (min-width: $min) and (orientation: $orient)
+//                            @content;
+//                    } @else { 
+//                        @media all and (min-width: $min)
+//                            @content;
+//                    }
+//             }
+//
+//            @if ($max) {
+//                    if ($orient) {
+//                        @media all and (max-width: $max) and (orientation: $orient)
+//                            @content;
+//                    } @else {  
+//                        @media all and (max-width: $max)
+//                           @content;
+//                    }
+//            }
+//
+//    }
+//
+//
+//}

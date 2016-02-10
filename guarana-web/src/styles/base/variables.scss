@@ -1,0 +1,59 @@
+/* GLOBAL VARIABLES */
+$size-desktop:             1800px;
+$size-desktop-in:          1020px;
+$vp-desktop-min:           1025px;
+
+$vp-tablet-min:            769px;
+$vp-tablet-max:            1024px;
+$size-tablet-in:           820px;
+
+$vp-mobile-min:            320px;
+$vp-mobile-max:            768px;
+
+
+//------------------ COLOR VARIABLES -------------------//
+/* PRIMARY COLORS */
+$fire-engine-red:        #d22630;
+$yellow:                 #faff00;
+$sea-pink:               #e99398;
+
+/* GRAYSCALE COLORS */
+$white:              #FFF;
+$black:              #000;
+$dark-gray:          #555555;
+$medium-gray:        #838383;
+$mine-shaft:         #3e3e3e;
+$silver-sand:        #c3c4c4;
+$black-haze:         #e9eaea;
+$loblolly:           #c0cdd2;
+$periwinkle-gray:    #bfd4e8;
+$iron:               #e5e6e7;
+
+
+
+//------------- FONTS ---------------//
+$font-title-regular:             'ProximaNova-Regular';
+$font-title-semibold:            'ProximaNova-Semibold';
+$font-title-bold:                'ProximaNova-Bold';
+$font-title-extrabold:           'ProximaNova-Extrabold';
+$font-title-semibold-italic:     'ProximaNova-SemiboldItalic';
+$font-normal:                    Arial, sans-serif, 'Helvetica Neue', Helvetica;
+$font-wt-light:                  300;
+$font-wt-regular:                400;
+$font-wt-bold:                   700;
+$font-wt-extrabold:              900;
+
+
+//------------------- BRAKEPOINTS -------------------//
+//media_queries = {
+//    mobile  : "only screen and (min-width: "+ $vp-mobile-min +") and (max-width: "+ $vp-mobile-max +")",
+//    tablet  : "only screen and (min-width: "+ $vp-tablet-min +") and (max-width: "+ $vp-tablet-max +")",
+//    desktop : "only screen and (min-width: "+ $vp-desktop-min +")"
+//}
+
+
+
+
+
+
+

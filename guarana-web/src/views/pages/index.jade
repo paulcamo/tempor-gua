@@ -1,0 +1,19 @@
+//- -------------- Home Page ---------------- -//
+//- ----------------------------------------- -//
+
+extends ../layout/layout
+
+
+block append head
+    link(href='css/home.css', rel='stylesheet', type='text/css')
+
+
+block content
+    //- content goes here
+    section.main__home
+        include ../modules/main-nav
+    
+        include ../modules/content-home
+
+block append footer-scripts
+    script(src="js/homepage.js")

@@ -1,0 +1,33 @@
+//- -------------- CONTENT HOME -------------- -//
+//- ----------------------------------------- -//
+
+section.content__home__section
+    .content__main__home__image
+        +basicImage("../img/homepage/home-campana-banner.jpg", "Volvió la etiqueta #esaitdaiva", "main__image__home__big")
+        span.main__banner__cta
+            +basicLink("ingresa Aquí", "#", "cta__home__big", newTab)
+
+    section.content__main__home__ctas
+        .cta__small__images.cta__small__unica
+            span.content__small__images 
+                +basicImage("../img/homepage/cta-unica-como-tu.png", "Única como tú", "small__image__unica")
+            span.content__small__cta
+                +basicImage("../img/homepage/unica-como-tu-logo.png", "Única como tú", "small__image__cta__logo")
+                p.content__small_cta ¿Sabías que el Dedo en realidad se llama Cabeza de huella? Conoce un poco más sobre la historia de Guaraná.
+                +basicLink("Entra aquí", "#", "small__cta__entrar", newTab)
+
+        .cta__small__images
+            span.content__small__images
+                +basicImage("../img/homepage/cta-guaratraductor.jpg", "Guara-traductor", "small__image__cta")
+            span.content__small__cta
+                +basicImage("../img/homepage/guara-traductor-logo.png", "Guara-traductor", "small__image__cta__logo")
+                p.content__small_cta Habla con tus amigos en códigos y loquea a los demás.
+                +basicLink("¡Tradúcelos aquí!", "#", "small__cta__entrar", newTab)
+
+        .cta__small__images
+            span.content__small__images
+                +basicImage("../img/homepage/cta-guara-redes.jpg", "Guara-Redes", "small__image__cta")
+            span.content__small__cta
+                +basicImage("../img/homepage/guara-redes-logo.png", "Guara-Redes", "small__image__cta__logo")
+                p.content__small_cta Descubre la comunidad más paja y única como tú.
+                +basicLink("¡Vamos, únete!", "#", "small__cta__entrar", newTab)
