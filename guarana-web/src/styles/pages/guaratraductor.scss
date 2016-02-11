@@ -1,0 +1,63 @@
+// importing default values, variables, mixings and generic content and main page layout
+@import '../base/defaults.scss';
+
+// ---------------------------------------- //
+// ----------- GUARATRADUCTOR ------------ //
+// ---------------------------------------- //
+
+.principal__content{
+    width: 83%;
+    background-image: url("../img/guaratraductor/bg-guaratraductor.jpg");
+    overflow: hidden;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+}
+
+.region__content{
+    width: 80%;
+    max-width: 706px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 34px;
+}
+
+.image__title__traductor{
+    width: 40%;
+    float: left;
+}
+
+.titles__content__traductor{
+    display: block;
+    overflow: hidden;
+}
+
+.text__title__traductor{
+    width: 60%;
+    float: left;
+    margin-top: 113px;
+    text-align: center;
+    h3{
+        font-size: 55px;
+        font-weight: bold;
+    }
+    h4{
+        font-size: 38px;
+    }
+    h5{
+        font-size: 14px;
+    }
+    .black__traductor{
+        font-weight: bold;
+    }
+}
+
+.spanish__content__traductor{
+    background-image: url("../img/guaratraductor/bg-spanish-traductor.png");
+    width: 699px;
+    height: 52px;
+    display: block;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}

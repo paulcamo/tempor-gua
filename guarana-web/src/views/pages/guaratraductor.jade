@@ -6,16 +6,17 @@ extends ../layout/layout
 
 block append head
     link(href='css/home.css', rel='stylesheet', type='text/css')
+    link(href='css/guaratraductor.css', rel='stylesheet', type='text/css')
 
 
 block content
+    //- content goes here
+    section.main__home
+        include ../modules/main-nav
+        
+        include ../modules/content-traductor
 
-    h2 Internal Page
-    a.scroll__to(href='#sample', data-offset='100') jump to sample
 
-    .sampleContainer
-        .sampleContent#sample
-            h3 here is the sample
 
 block append footer-scripts
         script(src="js/internal.js")

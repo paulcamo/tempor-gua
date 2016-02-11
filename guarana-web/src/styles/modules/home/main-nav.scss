@@ -10,9 +10,9 @@ $max-width: 256px;
     overflow: hidden;
     display: block;
     float: left;
-    position: fixed;
+    position: relative;
     z-index: 2;
-    height: 100% ;  
+    padding-bottom: 5%;
 }
     
 // ----- MAIN LOGO ----- //
@@ -151,6 +151,7 @@ $max-width: 256px;
     font-weight: bold;
     font-size: 12px;
     text-align: center;
+    background-repeat: no-repeat;
     &:hover{
         text-decoration: underline;
     }
@@ -163,6 +164,7 @@ $max-width: 256px;
     margin-top: 14px;
     margin-left: auto;
     margin-right: auto;
+    display: block;
     .link__login{
         color: $white;
         text-decoration: underline;

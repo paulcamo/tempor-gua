@@ -1,10 +1,10 @@
 /* GLOBAL VARIABLES */
 $size-desktop:             1800px;
 $size-desktop-in:          1020px;
-$vp-desktop-min:           1025px;
+$vp-desktop-min:           1311px;
 
 $vp-tablet-min:            769px;
-$vp-tablet-max:            1024px;
+$vp-tablet-max:            1313px;
 $size-tablet-in:           820px;
 
 $vp-mobile-min:            320px;
@@ -45,6 +45,16 @@ $font-wt-extrabold:              900;
 
 
 //------------------- BRAKEPOINTS -------------------//
+@mixin mobile {
+  @media only screen and (min-width: #{$vp-mobile-min}) and (max-width: #{$vp-mobile-max}) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media only screen and (min-width: #{$vp-tablet-min}) and (max-width: #{$vp-tablet-max}) {
+    @content;
+  }
+}
 //media_queries = {
 //    mobile  : "only screen and (min-width: "+ $vp-mobile-min +") and (max-width: "+ $vp-mobile-max +")",
 //    tablet  : "only screen and (min-width: "+ $vp-tablet-min +") and (max-width: "+ $vp-tablet-max +")",
