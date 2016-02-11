@@ -3,16 +3,37 @@
 // --------------------------------------------- //
 $max-width: 256px;
 
+.main__home{
+    padding-left: 53px;
+    position: relative;
+    transition: padding-left 0.3s;
+
+    &.menu__open{
+        padding-left: 245px;
+    }
+}
+
+.menu__open{
+    padding-left: 245px;
+
+    .main__navigation__home{
+        width: 245px;
+    }
+}
+
+
+
 .main__navigation__home{
-     width: 17%;
-    min-width: $max-width;
+    width: 53px;
+    height: 100%;
     background-color: $fire-engine-red;
     overflow: hidden;
-    display: block;
-    float: left;
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
     z-index: 2;
     padding-bottom: 5%;
+    transition: width 0.3s;
 }
     
 // ----- MAIN LOGO ----- //

@@ -8,10 +8,12 @@ $max-width:  600px;
     width: 100%;
     display: flex;
     overflow: hidden;
+    box-sizing: border-box;
+
 }
     
 .content__home__section{
-    width: 83%;
+    width: 100%;
     overflow: hidden;
     float: left;
 }
